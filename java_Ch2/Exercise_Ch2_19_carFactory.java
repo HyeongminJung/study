@@ -1,4 +1,4 @@
-package exercise.Ch2;
+package Ch2;
 
 class CarFactory{
 	private CarFactory() {}
@@ -20,11 +20,11 @@ class Car{
 	private int carNum;
 	
 	public Car() {
-		serialNum++;
-		carNum = serialNum;
+		this.serialNum++;
+		this.carNum = serialNum;
 	}
 	public int getCarNum() {
-		return carNum;
+		return this.carNum;
 	}
 }
 public class Exercise_Ch2_19_carFactory {

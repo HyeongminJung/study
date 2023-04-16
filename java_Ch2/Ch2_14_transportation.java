@@ -1,10 +1,10 @@
-package exercise.Ch2;
+package Ch2;
 
-class Student{
+class st{
 	private String studentName;
 	private int money ;
 	
-	public Student(String studentName, int money) {
+	public st(String studentName, int money) {
 		this.studentName = studentName;
 		this.money = money;
 	}
@@ -63,8 +63,8 @@ class Subway{
 
 public class Ch2_14_transportation {
 	public static void main(String[] args) {
-		Student studentJ = new Student("James", 5000);
-		Student studentT = new Student("Tomas", 10000);
+		st studentJ = new st("James", 5000);
+		st studentT = new st("Tomas", 10000);
 		
 		Bus bus100 = new Bus(100);
 		Bus bus500 = new Bus(500);

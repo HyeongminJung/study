@@ -1,4 +1,4 @@
-package exercise.Ch2;
+package Ch2;
 
 class Order{
 	private String orderNumber;
